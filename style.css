@@ -88,3 +88,132 @@ section {
 .about{
     text-align:center;
 }
+
+.about-txt-text{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.about-details-edu{
+    text-align: left;
+}
+
+.edu-title{
+    font-size: 2rem;
+    padding-top: 50px;
+} 
+
+.edu-details{
+    border: 1px solid orangered;
+    margin: 20px 0px;
+    padding: 20px;
+    display: grid;
+  grid-template-columns: 1fr auto; /* left takes space, right fits content */
+  align-items: center;
+  gap: 5px;
+}
+
+.edu-details .course{
+    font-size: 1.6rem;
+    padding-bottom: 10px;
+      grid-column: 1;
+      
+}
+.edu-details .university{
+    font-size: 1.6rem;
+    padding-bottom: 10px;
+      grid-column: 1;
+
+}
+.edu-details .year{
+    font-size: 1.6rem;
+    grid-column: 2;
+    justify-self: start;
+}
+
+/* Skills */
+.skills-txt-container{
+    text-align: center;
+}
+.skills-txt-text{
+    font-size: 2.5rem;
+}
+/* .skills-details-container{
+    display: flex;
+}
+.skills-details-box1{
+    
+    border: 2px solid greenyellow;
+}
+.skills-details-box2{
+  
+} */
+ .skills-details-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* equal width */
+  gap: 20px;
+}
+
+.skills-details-box {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 50px;
+  
+}
+
+.skills-box-title{
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 10px 0px;
+}
+.skills-box{
+    display: flex;
+  flex-wrap:wrap ;
+}
+.skills-details-box article{
+    font-size: 1.5rem;
+    padding: 5px 8px;
+    border: 1px solid orange;
+    width: max-content;
+    margin: 5px;
+}
+.projects-txt-text{
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 10px 0px;
+}
+.projects-container{
+    display: grid;
+  grid-template-columns: 1fr 1fr; /* equal width */
+  gap: 20px;
+}
+.projects-container article{
+     font-size: 1.5rem;
+    padding: 5px 8px;
+    border: 1px solid orange;
+    margin: 5px;
+}
+
+/* contact */
+
+.contact-txt-t1 ,.contact-txt-t2{
+ text-align: center;
+}
+
+.contact-txt-t1{
+    font-size: 1.5rem;
+}
+.contact-txt-t2{
+    font-size:2.5rem;
+}
+.contact-info-container{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.contact-info{
+    font-size: 1.5rem;
+}
